@@ -126,7 +126,7 @@ AUTH_USER_MODEL = 'custom_accounts.User'
 ]"""
 
 CRONJOBS = [
-    ('* * * * *', 'base.models.send_monthly_update_credits')
+    ('20 * * * *', 'base.models.send_monthly_update_credits')
 ]
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
