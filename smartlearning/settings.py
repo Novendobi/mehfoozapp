@@ -43,7 +43,7 @@ CSRF_TRUSTED_ORIGINS = [
     # 'http://www.herosjourney.one',
     'https://www.herosjourney.one',
     'https://herosjourney.one',
-    'https://web-production-fe22.up.railway.app/'
+    'https://web-production-fe22.up.railway.app'
 ]
 
 SITE_ID = 1
