@@ -24,4 +24,4 @@ cmds = ["python manage.py collectstatic --noinput"]
 
 # Specify the start command for the app
 [start]
-cmd = "python manage.py startapp"
+cmd = "python manage.py start_app"
