@@ -10,7 +10,8 @@ class Command(BaseCommand):
 
         # Add the django-crontab jobs
         call_command('crontab', 'add')
-        
+        call_command('crontab', 'show')
+
         # Start the Gunicorn server in a new thread
         #Thread(target=os.system, args=('python manage.py runserver',)).start()
         Thread(target=os.system, args=('gunicorn smartlearning.wsgi',)).start()
