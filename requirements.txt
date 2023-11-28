@@ -36,8 +36,8 @@ packaging==23.1
 Pillow==9.5.0
 prompt-toolkit==3.0.39
 protobuf==4.23.4
-psycopg2==2.9.7
-psycopg2-binary==2.9.7
+#psycopg2==2.9.7
+#psycopg2-binary==2.9.7
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pycodestyle==2.11.0
