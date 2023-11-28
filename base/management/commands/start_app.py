@@ -16,3 +16,7 @@ class Command(BaseCommand):
         # Start the Gunicorn server in a new thread
         #Thread(target=os.system, args=('python manage.py runserver',)).start()
         Thread(target=os.system, args=('gunicorn smartlearning.wsgi',)).start()
+"""        while True:
+            call_command('update_free_credits')
+            time.sleep(60)
+"""
