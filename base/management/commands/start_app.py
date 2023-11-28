@@ -9,8 +9,9 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
 
         # Add the django-crontab jobs
-        call_command('crontab', 'add')
-        call_command('crontab', 'show')
+        #call_command('crontab', 'add')
+        #call_command('crontab', 'show')
+        call_command('update_free_credits')
 
         # Start the Gunicorn server in a new thread
         #Thread(target=os.system, args=('python manage.py runserver',)).start()
